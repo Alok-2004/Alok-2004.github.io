@@ -242,7 +242,7 @@ body{
   border:1.5px solid #c2c2c2;
   border-radius: 10%;
   cursor: pointer;
-  overflow: hidden;
+  overflow: auto;
   height: 300px;
   width: 300px;
   background-color: #201f1f;
