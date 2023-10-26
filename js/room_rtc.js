@@ -256,6 +256,7 @@ let leaveStream = async (e) => {
     }
 
     channel.sendMessage({text:JSON.stringify({'type':'user_left', 'uid':uid})})
+    window.location.href = "/lobby.html"
 }
 
 
